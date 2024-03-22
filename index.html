@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XenoByte Bot - Terms of Service</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #121212;
+        color: #fff;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #1f1f1f;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    /* Hamburger menu styles */
+    .hamburger {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        cursor: pointer;
+        z-index: 1000;
+    }
+
+    .hamburger div {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 6px 0;
+        transition: transform 0.4s, opacity 0.4s;
+    }
+
+    .nav-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 900;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.4s, visibility 0.4s;
+    }
+
+    .nav {
+        background-color: #1f1f1f;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .nav a {
+        display: block;
+        margin-bottom: 20px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        transition: color 0.3s;
+    }
+
+    .nav a:hover {
+        color: #7289da;
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>XenoByte Bot - Terms of Service</h1>
+        
+        <h2>Section 1: Introduction</h2>
+        <p>Welcome to XenoByte Bot. By using our services, you agree to the following terms:</p>
+        
+        <h3>Subsection 1.1: Purpose</h3>
+        <p>XenoByte Bot is a multifunctional Discord bot that offers entertainment, moderation, and utility features to enhance your Discord server's functionality and user experience.</p>
+        
+        <h2>Section 2: User Responsibilities</h2>
+        <p>Users are expected to adhere to the following responsibilities:</p>
+        
+        <h3>Subsection 2.1: Account Usage</h3>
+        <p>Users must safeguard their account credentials and refrain from sharing them with others to prevent unauthorized access to their account, ensuring the security and integrity of their account information.</p>
+        
+        <h3>Subsection 2.2: Conduct</h3>
+        <p>Users are required to conduct themselves in a courteous and respectful manner while interacting with XenoByte Bot and other users, refraining from engaging in any behavior that may be considered offensive, discriminatory, or disruptive.</p>
+        
+        <h2>Section 3: Privacy Policy</h2>
+        <p>We are committed to safeguarding your privacy. For detailed information on how we collect, use, and protect your data, please review our comprehensive Privacy Policy available on our website.</p>
+        
+        <h2>Section 4: Intellectual Property</h2>
+        <p>All content, including commands, responses, visuals, and any other materials provided by XenoByte Bot, is protected under intellectual property laws, and any unauthorized use or distribution is strictly prohibited.</p>
+        
+        <h2>Section 5: Prohibited Activities</h2>
+        <p>Engaging in the following activities is strictly prohibited:</p>
+        
+        <h3>Subsection 5.1: Spamming</h3>
+        <p>Users are prohibited from spamming commands, messages, or any other content through XenoByte Bot or within Discord servers, as it disrupts the user experience and may result in sanctions.</p>
+        
+        <h3>Subsection 5.2: Malicious Behavior</h3>
+        <p>Any form of malicious behavior, including but not limited to hacking attempts, exploitation of vulnerabilities, or deliberate disruption of services, will not be tolerated and may result in immediate suspension of access to the bot.</p>
+        
+        <h2>Section 6: Termination of Services</h2>
+        <p>XenoByte Bot retains the right to terminate services for users found in violation of our Terms of Service, engaging in prohibited activities, or for any other reason deemed necessary to protect the integrity of the service.</p>
+        
+        <h2>Section 7: Modifications to Terms</h2>
+        <p>We reserve the right to update these terms periodically to reflect changes in the service, legal requirements, or other considerations. Users will be notified of any modifications to the Terms of Service.</p>
+        
+        <h2>Section 8: Contact Information</h2>
+        <p>For inquiries, assistance, or concerns regarding these terms or the use of XenoByte Bot, please contact our support team at support@xenobytebot.com. We are here to help address any questions or issues you may encounter.</p>
+        
+        <h2>Section 9: Governing Law</h2>
+        <p>These terms are governed by the laws of the state of California, outlining the legal framework within which disputes, agreements, and any other legal matters pertaining to the use of XenoByte Bot are to be addressed.</p>
+        
+        <h2>Section 10: Agreement</h2>
+        <p>By utilizing XenoByte Bot, you explicitly agree to abide by and adhere to the provisions outlined in these Terms of Service, acknowledging your understanding and acceptance of the terms and conditions set forth herein.</p>
+    </div>
+<footer class="footer">
+    Created by: plxid | XenoByte&copy; 2024
+</footer>
+<div class="hamburger" onclick="toggleNav()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<div class="nav-container" id="navContainer" onclick="toggleNav()">
+    <div class="nav">
+        <a href="#" onclick="inviteBot()">Invite XenoByte</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+</div>
+<script>
+    function inviteBot() {
+        window.open('https://discord.com/oauth2/authorize?client_id=1216253648594800691&permissions=8&scope=applications.commands+bot', '_blank');
+        alert('Thanks for inviting XenoByte!');
+    }
+
+    function toggleNav() {
+        const navContainer = document.getElementById('navContainer');
+        if (navContainer.style.visibility === 'visible') {
+            navContainer.style.visibility = 'hidden';
+            navContainer.style.opacity = '0';
+        } else {
+            navContainer.style.visibility = 'visible';
+            navContainer.style.opacity = '1';
+        }
+    }
+</script>
+</body>
+</html>
